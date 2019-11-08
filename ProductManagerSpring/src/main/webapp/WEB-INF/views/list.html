@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="layout :: head">
+    <meta charset="UTF-8">
+    <title>Product List</title>
+
+</head>
+<body>
+<h1 class="title" th:text="${message}"></h1>
+<p>
+    <a th:href="@{/product/add-product}">
+        Add new product
+    </a>
+</p>
+
+<form th:action="@{search-by-name}">
+    <input type="text" id="name" name="name">
+    <input type="submit" value="Search By Name">
+</form>
+
+<table id="product">
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+</table>
+
+<div>
+    <div th:each="product,iterStat : ${products}" th:class="${iterStat.odd}? 'odd'">
+        <div class="product-item">
+            <p th:text="${product.id}"></p>
+            <p th:text="${product.name}"></p>
+            <p th:text="${product.price}"></p>
+            <p><a th:href="@{/product/edit-product/__${product.id}__}">Edit</a></p>
+            <p><a th:href="@{'https://vnexpress.net/'}">Delete</a></p>
+            <p><a th:href="@{/product/shoppingcart/ordernow/__${product.id}__}">OrderNow</a></p>
+        </div>
+    </div>
+</div>
+<footer th:replace="layout :: footer"></footer>
+</body>
+</html>

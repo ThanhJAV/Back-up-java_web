@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="taglibs-standard-impl-1.2.5">
+    <CLASSES>
+      <root url="jar://C:/apache-tomcat-9.0.26-windows-x64/apache-tomcat-9.0.26/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar!/" />
+      <root url="jar://C:/apache-tomcat-9.0.26-windows-x64/apache-tomcat-9.0.26/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar!/" />
+      <root url="file://$PROJECT_DIR$/.." />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/src" />
+      <root url="file://$PROJECT_DIR$/../CalculatorServlet/src" />
+      <root url="file://$PROJECT_DIR$/../Product Discount Calculator/src" />
+      <root url="file://$PROJECT_DIR$/../java-web-currency-converter/src" />
+      <root url="file://$PROJECT_DIR$/../simple_dictonary/src" />
+      <root url="file://$PROJECT_DIR$/../simple_login/src" />
+    </SOURCES>
+  </library>
+</component>

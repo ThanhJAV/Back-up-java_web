@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee List</title>
+</head>
+<body>
+<a href="/list-gender">Move list gender</a><br>
+<a href="/create-employee">Create new employee</a>
+<h1>Employee</h1>
+<form>
+    Search by  name :
+    <input name="s" type="text"/>
+    <input type="submit" value="Search"/>
+</form><br/>
+<th:block th:if="${message}">
+    <p th:text="${message}"></p>
+</th:block>
+<table border="1">
+    <tr>
+        <!--        <th>ID</th>-->
+        <th>Name</th>
+        <th>Phone</th>
+        <th>Email</th>
+        <th>Category</th>
+        <th>Gender</th>
+
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    <th:block th:each="employees:${employee}">
+        <tr>
+            <td th:text="${employees.name}">
+            <td th:text="${employees.phone}">
+            <td th:text="${employees.email}">
+            <td th:text="${employees.category.name}">
+            <td th:text="${employees.gender}">
+
+            <td><a th:href="@{/edit-employee/__${employees.id}__}">Edit</a></td>
+            <td><a th:href="@{/delete-employee/__${employees.id}__}">Delete</a></td>
+        </tr>
+    </th:block>
+</table>
+<div>
+    <a th:href="@{'/list-employee'(page=${employee.number - 1})}" th:if="${employee.hasPrevious()}">Previous</a>
+    <span th:text="${employee.number + 1}"></span>/<span th:text="${employee.totalPages}"></span>
+    <a th:href="@{'/list-employee'(page=${employee.number + 1})}" th:if="${employee.hasNext()}">Next</a>
+</div>
+</body>
+</html>

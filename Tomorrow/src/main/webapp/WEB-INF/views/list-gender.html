@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>List Gender</title>
+</head>
+<body>
+<a href="/list-employee">Back to employee list</a><br>
+<a href="/create-gender">Create new gender</a>
+<h1>List Gender</h1>
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    <th:block th:each="categorys : ${category}">
+        <tr>
+            <td th:text="${categorys.id}"></td>
+            <td th:text="${categorys.name}"></td>
+            <td><a th:href="@{/edit-type/__${categorys.id}__ }">Edit</a></td>
+            <td><a th:href="@{/delete-type/__${categorys.id}__ }">Delete</a></td>
+        </tr>
+    </th:block>
+</table>
+</body>
+</html>

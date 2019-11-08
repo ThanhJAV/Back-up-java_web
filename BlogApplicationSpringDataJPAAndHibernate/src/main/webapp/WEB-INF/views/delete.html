@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete blog</title>
+</head>
+<body>
+<h3>Remove Blog</h3>
+<p>
+    <a th:href="@{/blog-list}">
+        Back to blog list
+    </a>
+</p>
+<p> Bạn có chắc chắn muốn xóa truyện <label th:text="${blog.getStoryName()}"></label> ?</p>
+<div id="form">
+    <form action="#" th:action="@{/delete-blog}" th:object="${blog}"
+          method="POST" novalidate="novalidate">
+        <input type="hidden" th:field="*{id}"/>
+        <!--        <div>-->
+        <!--            <label>Id</label>-->
+        <!--            <input type="text" th:field="*{id}"/>-->
+        <!--        </div>-->
+        <div>
+                <label>Tác giả : </label>
+                <label th:text="${blog.getAuthor()}"></label>
+        </div>
+            <div>
+                <label>Thể loại : </label>
+                <label th:text="${blog.getCategory()}"></label>
+            </div>
+            <div>
+                <input type="submit" value="Remove">
+            </div>
+        </table>
+    </form>
+</div>
+</body>
+</html>

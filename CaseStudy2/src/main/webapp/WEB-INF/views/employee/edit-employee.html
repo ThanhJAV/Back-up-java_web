@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Employee</title>
+</head>
+<body>
+<h2>Edit Employee</h2>
+
+<a href="/list-employee">Back to list employee</a>
+<th:block th:if="${message}">
+    <p th:text="${message}"></p>
+</th:block>
+<form th:action="@{/save-edit-employee}" th:object="${employee}" method="post">
+    <table>
+        <td><input type="hidden" th:field="*{id}"/></td>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" th:field="*{name}"/></td>
+        </tr>
+        <tr>
+            <td>Birth</td>
+            <td><input type="text" th:field="*{birthDate}"/></td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><input type="text" th:field="*{address}"/></td>
+        </tr>
+        <tr>
+            <td>Salary</td>
+            <td><input type="text" th:field="*{salary}"/></td>
+        </tr>
+        <tr>
+            <td>Image</td>
+            <td><input type="file" th:field="*{image}"/></td>
+        </tr>
+        <tr>
+            <td>Department</td>
+            <td>
+                <select th:field="*{department}">
+                    <option th:each="d : ${departments}" th:value="${d.id}" th:text="${d.name}"></option>
+                </select>
+            </td>
+        </tr>
+<!--        <tr>-->
+<!--            <td>Gender</td>-->
+<!--            <td>-->
+<!--                <input type="radio" th:field="*{gender}" th:value="male"/>-->
+<!--                <label th:text="male"/>-->
+<!--                <input type="radio" th:field="*{gender}" th:value="female"/>-->
+<!--                <label th:text="female"/>-->
+<!--            </td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td>Favorite</td>-->
+<!--            <td>-->
+<!--                <ul style="list-style-type: none;">-->
+<!--                    <li th:each="fa : ${listFavorite}">-->
+<!--                        <input type="checkbox"-->
+<!--                               th:field="*{favorites}"-->
+<!--                               th:value="${fa}"/>-->
+<!--                        <label th:text="${fa}"></label>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td>Position</td>-->
+<!--            <td>-->
+<!--                <select th:field="*{position}">-->
+<!--                    <option value=""></option>-->
+<!--                    <option th:each="ps : ${listPosition}"-->
+<!--                            th:value="${ps}" th:text="${ps}"></option>-->
+<!--                </select>-->
+<!--            </td>-->
+<!--        </tr>-->
+        <tr>
+            <td colspan="2"><input type="submit" value="Edit"/></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

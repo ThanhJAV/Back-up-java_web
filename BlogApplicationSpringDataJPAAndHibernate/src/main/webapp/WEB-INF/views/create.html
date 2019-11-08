@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<!--<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">-->
+<head>
+    <meta charset="UTF-8">
+    <title>Create new blog</title>
+</head>
+<body>
+<h1>Create blog</h1>
+<p>
+    <a href="/home">Back to home</a>
+</p>
+<th:block th:if="${message}">
+    <p th:text="${message}"></p>
+</th:block>
+<form th:action="@{/save-create-blog}" th:object="${blog}" method="post">
+    <table>
+        <tr>
+            <th>Tác giả</th>
+            <td><input type="text" th:field="*{author}"/></td>
+        </tr>
+        <tr>
+            <th>Thể loại</th>
+            <td><input type="text" th:field="*{category}"/></td>
+        </tr>
+        <tr>
+            <th>Ngày tạo</th>
+            <td><input type="text" th:field="*{dateCreated}"/></td>
+        </tr>
+            <th>Tên truyện</th>
+            <td><input type="text" th:field="*{storyName}"/></td>
+        </tr>
+        <tr>
+            <th>Nội dung</th>
+            <td><textarea rows="20" cols="100" th:field="*{storyContent}"></textarea></td>
+        </tr>
+        <tr>
+            <th></th>
+            <td><input type="submit" value="Create Blog"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

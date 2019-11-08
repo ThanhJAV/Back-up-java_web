@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete blog</title>
+</head>
+<body>
+<h3>Remove blog</h3>
+<p>
+    <a th:href="@{/list}">
+        Back to product list
+    </a>
+</p>
+<div id="form">
+    <form action="#" th:action="@{/delete-product}" th:object="${product}"
+          method="POST" novalidate="novalidate">
+        <input type="hidden" th:field="*{id}"/>
+<!--        <div>-->
+<!--            <label>Id</label>-->
+<!--            <input type="text" th:field="*{id}"/>-->
+<!--        </div>-->
+
+        <table>
+            <tr>
+                <td><label>Tác giả</label></td>
+                <td><input type="text" th:field="*{author}"/></td>
+            </tr>
+            <tr>
+                <td> <label>Thể loại</label></td>
+                <td><input type="text" th:field="*{category}"/></td>
+            </tr>
+            <tr>
+                <td> <label>Tên truyện</label></td>
+                <td><input type="text" th:field="*{storyname}"/></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Remove"></input></td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

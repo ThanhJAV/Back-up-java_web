@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<!--<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">-->
+<head>
+    <meta charset="UTF-8">
+    <title>List Product</title>
+</head>
+<body>
+<h3>Product</h3>
+<p>
+    <a th:href="@{/home}">
+        Back to home
+    </a>
+</p>
+<div class="notify">
+    <div th:if="${success}">
+        <span th:text="${success}"></span>
+    </div>
+</div>
+<table id = "blog">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Tác giả</th>
+        <th>Thể loại</th>
+        <th>Tên truyện</th>
+        <th>Edit</th>
+        <th>Delete</th>
+        <th>Read</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="row,rowStat : ${blog}">
+        <td th:text="${row.getId()}"></td>
+        <td th:text="${row.getAuthor()}"></td>
+        <td th:text="${row.getCategory()}"></td>
+        <td th:text="${row.getStoryName()}"></td>
+        <td><a th:href="@{/edit-blog/{id}/(id=${row.getId()})}">Edit</a></td>
+        <td><a th:href="@{/delete-blog/{id}/(id=${row.getId()})}">Delete</a></td>
+        <td><a th:href="@{/read-blog/{id}/(id=${row.getId()})}">Read</a></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<!--<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">-->
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${blog.getStoryName()}"></title>
+</head>
+<body>
+<center><h1><label type="text" th:field="*{blog.getStoryName()}"></label></h1></center>
+<p>
+    <a href="/home">Back to home</a><br>
+    <a href="/blog-list">Back to blog list</a>
+</p>
+    <div id="detail">
+        <div class="cusdetail">
+            <center><h1 style="color: blue"><label th:text="${blog.getStoryName()}"></label></h1></center>
+        </div>
+        <div class="cusdetail">
+            <label>Thể loại : </label>
+            <label th:text="${blog.getCategory()}"></label>
+        </div>
+        <div class="cusdetail">
+            <label>Tác giả : </label>
+            <label th:text="${blog.getAuthor()}"></label>
+        </div>
+        <div>
+            <br><br><br><br>
+        </div>
+        <div class="cusdetail">
+            <label th:text="${blog.getStoryContent()}"></label>
+        </div>
+    </div>
+</body>
+</html>
