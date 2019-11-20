@@ -1,6 +1,9 @@
 package com.codegym.model;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
 
 @Entity
 @Table(name = "employee")
@@ -9,6 +12,11 @@ public class Employee {
     @GeneratedValue(strategy= GenerationType.AUTO)
 
     private Long id;
+
+    @NotEmpty(message = "Name is required field")
+    @Size(min = 5, max = 30)
+    @Pattern(regexp="^[A-Za-z]*$", message = "String must A-Za-z")
+
     private String name;
     private String email;
     private String phone;

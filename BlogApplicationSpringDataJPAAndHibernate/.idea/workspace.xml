@@ -1,7 +1,628 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0e314a5-d830-474b-9bd9-f4330759b9f4" name="Default Changelist" comment="" />
+    <list default="true" id="d0e314a5-d830-474b-9bd9-f4330759b9f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/Java_web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/BlogApplicationSpringDataJPAAndHibernate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy2/.idea/artifacts/CaseStudy2_main_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tomorrow/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tomorrow/src/main/resources/main/ValidationMessages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-manage/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-manage/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codegym/controller/BlogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codegym/controller/BlogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/BlogApplicationSpringDataJPAAndHibernate-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/BlogApplicationSpringDataJPAAndHibernate-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/config/ApplicationInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/config/ApplicationInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/model/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/model/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/repository/BlogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/repository/BlogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/repository/BlogRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/repository/BlogRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/repository/BlogRepositorySpringData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/repository/BlogRepositorySpringData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/repository/GeneralRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/repository/GeneralRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/service/BlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/service/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/service/BlogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/service/GeneralService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/service/GeneralService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/read.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/read.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/search-by-name.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/search-by-name.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorServlet/.idea/artifacts/CalculatorServlet_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorServlet/.idea/artifacts/CalculatorServlet_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorServlet/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorServlet/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorServlet/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorServlet/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorServlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorServlet/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorServlet/CalculatorServlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorServlet/CalculatorServlet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorServlet/out/artifacts/CalculatorServlet_war_exploded/WEB-INF/classes/Calculator/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorServlet/out/artifacts/CalculatorServlet_war_exploded/WEB-INF/classes/Calculator/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorServlet/out/artifacts/CalculatorServlet_war_exploded/WEB-INF/classes/Calculator/CalculatorServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorServlet/out/artifacts/CalculatorServlet_war_exploded/WEB-INF/classes/Calculator/CalculatorServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorServlet/out/production/CalculatorServlet/Calculator/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorServlet/out/production/CalculatorServlet/Calculator/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorServlet/out/production/CalculatorServlet/Calculator/CalculatorServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorServlet/out/production/CalculatorServlet/Calculator/CalculatorServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorServlet/src/Calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorServlet/src/Calculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorServlet/src/Calculator/CalculatorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorServlet/src/Calculator/CalculatorServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorSpring/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorSpring/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorSpring/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorSpring/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorSpring/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorSpring/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorSpring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorSpring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorSpring/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorSpring/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorSpring/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorSpring/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorSpring/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorSpring/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorSpring/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorSpring/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorSpring/src/main/java/vn/codegym/config/ConfigSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorSpring/src/main/java/vn/codegym/config/ConfigSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorSpring/src/main/java/vn/codegym/config/ConfigWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorSpring/src/main/java/vn/codegym/config/ConfigWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorSpring/src/main/java/vn/codegym/controller/CalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorSpring/src/main/java/vn/codegym/controller/CalculatorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorSpring/src/main/webapp/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorSpring/src/main/webapp/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/config/ApplicationInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/config/ApplicationInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/controller/DepartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/converter/StringToLocalDateConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/converter/StringToLocalDateConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/formatter/DepartmentFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/formatter/DepartmentFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/model/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/model/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/model/EmployeeForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/model/EmployeeForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/repository/DepartmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/repository/DepartmentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/repository/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/service/DepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/service/impl/DepartmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/service/impl/DepartmentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/java/com/codegym/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/webapp/WEB-INF/views/department/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/webapp/WEB-INF/views/department/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/webapp/WEB-INF/views/department/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/webapp/WEB-INF/views/department/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/webapp/WEB-INF/views/department/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/webapp/WEB-INF/views/department/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/webapp/WEB-INF/views/department/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/webapp/WEB-INF/views/department/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/webapp/WEB-INF/views/employee/create-employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/webapp/WEB-INF/views/employee/create-employee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/webapp/WEB-INF/views/employee/delete-employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/webapp/WEB-INF/views/employee/delete-employee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/webapp/WEB-INF/views/employee/edit-employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/webapp/WEB-INF/views/employee/edit-employee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/webapp/WEB-INF/views/employee/list-employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2 - Copy/src/main/webapp/WEB-INF/views/employee/list-employee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/build/libs/CaseStudy2-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/build/libs/CaseStudy2-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/config/ApplicationInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/config/ApplicationInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/controller/DepartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/converter/StringToLocalDateConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/converter/StringToLocalDateConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/formatter/DepartmentFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/formatter/DepartmentFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/model/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/model/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/repository/DepartmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/repository/DepartmentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/repository/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/service/DepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/service/impl/DepartmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/service/impl/DepartmentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/src/main/java/com/codegym/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/src/main/webapp/WEB-INF/views/department/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/src/main/webapp/WEB-INF/views/department/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/src/main/webapp/WEB-INF/views/department/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/src/main/webapp/WEB-INF/views/department/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/src/main/webapp/WEB-INF/views/department/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/src/main/webapp/WEB-INF/views/department/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/src/main/webapp/WEB-INF/views/department/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/src/main/webapp/WEB-INF/views/department/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/src/main/webapp/WEB-INF/views/employee/create-employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/src/main/webapp/WEB-INF/views/employee/create-employee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/src/main/webapp/WEB-INF/views/employee/delete-employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/src/main/webapp/WEB-INF/views/employee/delete-employee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/src/main/webapp/WEB-INF/views/employee/edit-employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/src/main/webapp/WEB-INF/views/employee/edit-employee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy2/src/main/webapp/WEB-INF/views/employee/list-employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy2/src/main/webapp/WEB-INF/views/employee/list-employee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CurrencyConversionJSP/.idea/artifacts/CurrencyConversionJSP_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CurrencyConversionJSP/.idea/artifacts/CurrencyConversionJSP_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CurrencyConversionJSP/.idea/libraries/taglibs_standard_impl_1_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CurrencyConversionJSP/.idea/libraries/taglibs_standard_impl_1_2_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CurrencyConversionJSP/.idea/libraries/taglibs_standard_spec_1_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CurrencyConversionJSP/.idea/libraries/taglibs_standard_spec_1_2_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CurrencyConversionJSP/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CurrencyConversionJSP/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CurrencyConversionJSP/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CurrencyConversionJSP/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CurrencyConversionJSP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CurrencyConversionJSP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CurrencyConversionJSP/CurrencyConversionJSP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CurrencyConversionJSP/CurrencyConversionJSP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CurrencyConversionJSP/out/artifacts/CurrencyConversionJSP_war_exploded/converter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../CurrencyConversionJSP/out/artifacts/CurrencyConversionJSP_war_exploded/converter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CurrencyConversionJSP/web/converter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../CurrencyConversionJSP/web/converter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CurrencyConversionSpring/.idea/artifacts/CurrencyConversionSpring_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CurrencyConversionSpring/.idea/artifacts/CurrencyConversionSpring_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CurrencyConversionSpring/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CurrencyConversionSpring/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CurrencyConversionSpring/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CurrencyConversionSpring/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CurrencyConversionSpring/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CurrencyConversionSpring/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CurrencyConversionSpring/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CurrencyConversionSpring/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CurrencyConversionSpring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CurrencyConversionSpring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CurrencyConversionSpring/CurrencyConversionSpring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CurrencyConversionSpring/CurrencyConversionSpring.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CurrencyConversionSpring/out/artifacts/CurrencyConversionSpring_war_exploded/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CurrencyConversionSpring/out/artifacts/CurrencyConversionSpring_war_exploded/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CurrencyConversionSpring/out/artifacts/CurrencyConversionSpring_war_exploded/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CurrencyConversionSpring/out/artifacts/CurrencyConversionSpring_war_exploded/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CurrencyConversionSpring/out/artifacts/CurrencyConversionSpring_war_exploded/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../CurrencyConversionSpring/out/artifacts/CurrencyConversionSpring_war_exploded/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CurrencyConversionSpring/src/controllers/ConvertCurrencySpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CurrencyConversionSpring/src/controllers/ConvertCurrencySpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CurrencyConversionSpring/web/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CurrencyConversionSpring/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CurrencyConversionSpring/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CurrencyConversionSpring/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CurrencyConversionSpring/web/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../CurrencyConversionSpring/web/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManager/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManager/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManager/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManager/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManager/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManager/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManager/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManager/src/main/java/com/codegym/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManager/src/main/java/com/codegym/ApplicationInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManager/src/main/java/com/codegym/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/src/main/java/com/codegym/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManager/src/main/java/com/codegym/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/src/main/java/com/codegym/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManager/src/main/java/com/codegym/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/src/main/java/com/codegym/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManager/src/main/java/com/codegym/repository/CustomerRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/src/main/java/com/codegym/repository/CustomerRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManager/src/main/java/com/codegym/repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/src/main/java/com/codegym/repository/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManager/src/main/java/com/codegym/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/src/main/java/com/codegym/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManager/src/main/java/com/codegym/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/src/main/java/com/codegym/service/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManager/src/main/webapp/WEB-INF/views/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManager/src/main/webapp/WEB-INF/views/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManager/src/main/webapp/WEB-INF/views/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManager/src/main/webapp/WEB-INF/views/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/src/main/webapp/WEB-INF/views/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/src/main/java/com/codegym/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/src/main/java/com/codegym/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/src/main/java/com/codegym/config/ApplicationInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/src/main/java/com/codegym/config/ApplicationInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/src/main/java/com/codegym/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/src/main/java/com/codegym/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/src/main/java/com/codegym/controller/ProvinceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/src/main/java/com/codegym/controller/ProvinceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/src/main/java/com/codegym/formatter/ProvinceFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/src/main/java/com/codegym/formatter/ProvinceFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/src/main/java/com/codegym/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/src/main/java/com/codegym/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/src/main/java/com/codegym/model/Province.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/src/main/java/com/codegym/model/Province.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/src/main/java/com/codegym/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/src/main/java/com/codegym/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/src/main/java/com/codegym/repository/ProvinceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/src/main/java/com/codegym/repository/ProvinceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/src/main/java/com/codegym/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/src/main/java/com/codegym/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/src/main/java/com/codegym/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/src/main/java/com/codegym/service/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/src/main/java/com/codegym/service/ProvinceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/src/main/java/com/codegym/service/ProvinceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/src/main/java/com/codegym/service/ProvinceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/src/main/java/com/codegym/service/ProvinceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/src/main/webapp/WEB-INF/views/customer/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/src/main/webapp/WEB-INF/views/customer/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/src/main/webapp/WEB-INF/views/customer/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/src/main/webapp/WEB-INF/views/customer/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/src/main/webapp/WEB-INF/views/customer/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/src/main/webapp/WEB-INF/views/customer/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/src/main/webapp/WEB-INF/views/customer/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/src/main/webapp/WEB-INF/views/customer/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/src/main/webapp/WEB-INF/views/provinces/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/src/main/webapp/WEB-INF/views/provinces/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/src/main/webapp/WEB-INF/views/provinces/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/src/main/webapp/WEB-INF/views/provinces/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/src/main/webapp/WEB-INF/views/provinces/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/src/main/webapp/WEB-INF/views/provinces/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/src/main/webapp/WEB-INF/views/provinces/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/src/main/webapp/WEB-INF/views/provinces/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManagerKen/src/main/webapp/WEB-INF/views/provinces/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManagerKen/src/main/webapp/WEB-INF/views/provinces/view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dictionary-Spring/.idea/artifacts/Dictionary_Spring_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dictionary-Spring/.idea/artifacts/Dictionary_Spring_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dictionary-Spring/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dictionary-Spring/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dictionary-Spring/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dictionary-Spring/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dictionary-Spring/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dictionary-Spring/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dictionary-Spring/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dictionary-Spring/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dictionary-Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dictionary-Spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dictionary-Spring/Dictionary-Spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dictionary-Spring/Dictionary-Spring.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dictionary-Spring/out/artifacts/Dictionary_Spring_war_exploded/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dictionary-Spring/out/artifacts/Dictionary_Spring_war_exploded/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dictionary-Spring/out/artifacts/Dictionary_Spring_war_exploded/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dictionary-Spring/out/artifacts/Dictionary_Spring_war_exploded/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dictionary-Spring/out/artifacts/Dictionary_Spring_war_exploded/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Dictionary-Spring/out/artifacts/Dictionary_Spring_war_exploded/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dictionary-Spring/src/controllers/DictionaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dictionary-Spring/src/controllers/DictionaryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dictionary-Spring/web/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dictionary-Spring/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dictionary-Spring/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dictionary-Spring/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dictionary-Spring/web/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Dictionary-Spring/web/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dictionary_JSP/.idea/artifacts/Dictionary_JSP_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dictionary_JSP/.idea/artifacts/Dictionary_JSP_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dictionary_JSP/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dictionary_JSP/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dictionary_JSP/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dictionary_JSP/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dictionary_JSP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dictionary_JSP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dictionary_JSP/Dictionary_JSP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dictionary_JSP/Dictionary_JSP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dictionary_JSP/out/artifacts/Dictionary_JSP_war_exploded/dictionary.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Dictionary_JSP/out/artifacts/Dictionary_JSP_war_exploded/dictionary.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dictionary_JSP/web/dictionary.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Dictionary_JSP/web/dictionary.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DisplaySpiceWithSandwich/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../DisplaySpiceWithSandwich/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DisplaySpiceWithSandwich/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DisplaySpiceWithSandwich/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DisplaySpiceWithSandwich/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DisplaySpiceWithSandwich/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DisplaySpiceWithSandwich/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DisplaySpiceWithSandwich/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DisplaySpiceWithSandwich/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../DisplaySpiceWithSandwich/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DisplaySpiceWithSandwich/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../DisplaySpiceWithSandwich/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DisplaySpiceWithSandwich/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../DisplaySpiceWithSandwich/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DisplaySpiceWithSandwich/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../DisplaySpiceWithSandwich/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DisplaySpiceWithSandwich/src/main/java/vn/codegym/config/ConfigSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DisplaySpiceWithSandwich/src/main/java/vn/codegym/config/ConfigSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DisplaySpiceWithSandwich/src/main/java/vn/codegym/config/ConfigWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DisplaySpiceWithSandwich/src/main/java/vn/codegym/config/ConfigWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DisplaySpiceWithSandwich/src/main/java/vn/codegym/controller/SandwichController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DisplaySpiceWithSandwich/src/main/java/vn/codegym/controller/SandwichController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DisplaySpiceWithSandwich/src/main/webapp/views/display.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../DisplaySpiceWithSandwich/src/main/webapp/views/display.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DisplaySpiceWithSandwich/src/main/webapp/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../DisplaySpiceWithSandwich/src/main/webapp/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailValidate/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailValidate/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailValidate/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailValidate/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailValidate/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailValidate/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailValidate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailValidate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailValidate/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailValidate/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailValidate/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailValidate/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailValidate/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailValidate/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailValidate/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailValidate/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailValidate/src/main/java/vn/codegym/config/ConfigSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailValidate/src/main/java/vn/codegym/config/ConfigSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailValidate/src/main/java/vn/codegym/config/ConfigWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailValidate/src/main/java/vn/codegym/config/ConfigWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailValidate/src/main/java/vn/codegym/controller/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailValidate/src/main/java/vn/codegym/controller/EmailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailValidate/src/main/webapp/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailValidate/src/main/webapp/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailValidate/src/main/webapp/views/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailValidate/src/main/webapp/views/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeManagement/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeManagement/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeManagement/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeManagement/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeManagement/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeManagement/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeManagement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeManagement/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeManagement/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeManagement/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeManagement/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeManagement/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeManagement/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeManagement/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeManagement/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeManagement/src/main/java/come/codegym/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeManagement/src/main/java/come/codegym/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeManagement/src/main/java/come/codegym/config/ApplicationInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeManagement/src/main/java/come/codegym/config/ApplicationInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeManagement/src/main/java/come/codegym/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeManagement/src/main/java/come/codegym/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeManagement/src/main/java/come/codegym/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeManagement/src/main/java/come/codegym/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeManagement/src/main/java/come/codegym/repository/EmployeeRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeManagement/src/main/java/come/codegym/repository/EmployeeRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeManagement/src/main/java/come/codegym/repository/EmployeeRepositorySpringData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeManagement/src/main/java/come/codegym/repository/EmployeeRepositorySpringData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeManagement/src/main/java/come/codegym/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeManagement/src/main/java/come/codegym/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeManagement/src/main/java/come/codegym/service/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeManagement/src/main/java/come/codegym/service/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeManagement/src/main/java/come/codegym/service/GeneralService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeManagement/src/main/java/come/codegym/service/GeneralService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeManagement/src/main/webapp/WEB-INF/views/create-employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeManagement/src/main/webapp/WEB-INF/views/create-employee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeManagement/src/main/webapp/WEB-INF/views/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeManagement/src/main/webapp/WEB-INF/views/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/java/com/codegym/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/java/com/codegym/ApplicationInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/java/com/codegym/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/java/com/codegym/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/java/com/codegym/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/java/com/codegym/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/java/com/codegym/repository/GeneralRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/java/com/codegym/repository/GeneralRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/java/com/codegym/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/java/com/codegym/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/java/com/codegym/repository/ProductRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/java/com/codegym/repository/ProductRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/java/com/codegym/service/GeneralService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/java/com/codegym/service/GeneralService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/java/com/codegym/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/java/com/codegym/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/java/com/codegym/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/java/com/codegym/service/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/webapp/WEB-INF/views/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/webapp/WEB-INF/views/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/webapp/WEB-INF/views/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/webapp/WEB-INF/views/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/webapp/WEB-INF/views/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/webapp/WEB-INF/views/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstJPAProgramingSpringGradleHibernate/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FormAndDataBinding/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../FormAndDataBinding/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FormAndDataBinding/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FormAndDataBinding/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FormAndDataBinding/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FormAndDataBinding/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FormAndDataBinding/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FormAndDataBinding/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FormAndDataBinding/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../FormAndDataBinding/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FormAndDataBinding/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../FormAndDataBinding/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FormAndDataBinding/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../FormAndDataBinding/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FormAndDataBinding/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../FormAndDataBinding/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FormAndDataBinding/src/main/java/com/codegym/config/ConfigSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FormAndDataBinding/src/main/java/com/codegym/config/ConfigSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FormAndDataBinding/src/main/java/com/codegym/config/ConfigWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FormAndDataBinding/src/main/java/com/codegym/config/ConfigWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FormAndDataBinding/src/main/java/com/codegym/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FormAndDataBinding/src/main/java/com/codegym/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FormAndDataBinding/src/main/java/com/codegym/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FormAndDataBinding/src/main/java/com/codegym/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FormAndDataBinding/src/main/webapp/views/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../FormAndDataBinding/src/main/webapp/views/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FormAndDataBinding/src/main/webapp/views/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../FormAndDataBinding/src/main/webapp/views/info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApplication/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApplication/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApplication/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApplication/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApplication/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApplication/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApplication/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApplication/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApplication/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApplication/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApplication/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApplication/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApplication/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApplication/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApplication/src/main/java/vn/codegym/config/ConfigSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApplication/src/main/java/vn/codegym/config/ConfigSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApplication/src/main/java/vn/codegym/config/ConfigWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApplication/src/main/java/vn/codegym/config/ConfigWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApplication/src/main/java/vn/codegym/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApplication/src/main/java/vn/codegym/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApplication/src/main/java/vn/codegym/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApplication/src/main/java/vn/codegym/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApplication/src/main/java/vn/codegym/model/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApplication/src/main/java/vn/codegym/model/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApplication/src/main/java/vn/codegym/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApplication/src/main/java/vn/codegym/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApplication/src/main/webapp/pages/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApplication/src/main/webapp/pages/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApplication/src/main/webapp/pages/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApplication/src/main/webapp/pages/user.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApplication/src/main/webapp/pages/view1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApplication/src/main/webapp/pages/view1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Product Discount Calculator/.idea/artifacts/Product_Discount_Calculator_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Product Discount Calculator/.idea/artifacts/Product_Discount_Calculator_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Product Discount Calculator/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Product Discount Calculator/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Product Discount Calculator/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Product Discount Calculator/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Product Discount Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Product Discount Calculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Product Discount Calculator/Product Discount Calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Product Discount Calculator/Product Discount Calculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Product Discount Calculator/src/Discount/DiscountServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Product Discount Calculator/src/Discount/DiscountServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductHome/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductHome/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductHome/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductHome/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductHome/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductHome/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductHome/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductHome/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductHome/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductHome/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductHome/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductHome/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductHome/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductHome/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductHome/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductHome/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductHome/src/main/java/com/codegym/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductHome/src/main/java/com/codegym/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductHome/src/main/java/com/codegym/config/ApplicationInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductHome/src/main/java/com/codegym/config/ApplicationInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductHome/src/main/java/com/codegym/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductHome/src/main/java/com/codegym/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductHome/src/main/java/com/codegym/controller/TypeProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductHome/src/main/java/com/codegym/controller/TypeProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductHome/src/main/java/com/codegym/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductHome/src/main/java/com/codegym/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductHome/src/main/java/com/codegym/model/TypeProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductHome/src/main/java/com/codegym/model/TypeProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductHome/src/main/java/com/codegym/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductHome/src/main/java/com/codegym/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductHome/src/main/java/com/codegym/repository/TypeProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductHome/src/main/java/com/codegym/repository/TypeProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductHome/src/main/java/com/codegym/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductHome/src/main/java/com/codegym/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductHome/src/main/java/com/codegym/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductHome/src/main/java/com/codegym/service/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductHome/src/main/java/com/codegym/service/TypeProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductHome/src/main/java/com/codegym/service/TypeProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductHome/src/main/java/com/codegym/service/TypeProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductHome/src/main/java/com/codegym/service/TypeProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductHome/src/main/webapp/WEB-INF/views/create-type.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductHome/src/main/webapp/WEB-INF/views/create-type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductHome/src/main/webapp/WEB-INF/views/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductHome/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductHome/src/main/webapp/WEB-INF/views/delete-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductHome/src/main/webapp/WEB-INF/views/delete-product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductHome/src/main/webapp/WEB-INF/views/edit-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductHome/src/main/webapp/WEB-INF/views/edit-product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductHome/src/main/webapp/WEB-INF/views/list-type.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductHome/src/main/webapp/WEB-INF/views/list-type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductHome/src/main/webapp/WEB-INF/views/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductHome/src/main/webapp/WEB-INF/views/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductManagerSpring/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductManagerSpring/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductManagerSpring/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductManagerSpring/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductManagerSpring/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductManagerSpring/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductManagerSpring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductManagerSpring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductManagerSpring/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductManagerSpring/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductManagerSpring/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductManagerSpring/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductManagerSpring/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductManagerSpring/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductManagerSpring/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductManagerSpring/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductManagerSpring/src/main/java/com/codegym/config/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductManagerSpring/src/main/java/com/codegym/config/AppConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductManagerSpring/src/main/java/com/codegym/config/ConfigWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductManagerSpring/src/main/java/com/codegym/config/ConfigWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductManagerSpring/src/main/java/com/codegym/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductManagerSpring/src/main/java/com/codegym/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductManagerSpring/src/main/java/com/codegym/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductManagerSpring/src/main/java/com/codegym/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductManagerSpring/src/main/java/com/codegym/repository/GeneralRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductManagerSpring/src/main/java/com/codegym/repository/GeneralRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductManagerSpring/src/main/java/com/codegym/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductManagerSpring/src/main/java/com/codegym/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductManagerSpring/src/main/java/com/codegym/repository/ProductRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductManagerSpring/src/main/java/com/codegym/repository/ProductRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductManagerSpring/src/main/java/com/codegym/service/GeneralService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductManagerSpring/src/main/java/com/codegym/service/GeneralService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductManagerSpring/src/main/java/com/codegym/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductManagerSpring/src/main/java/com/codegym/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductManagerSpring/src/main/java/com/codegym/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductManagerSpring/src/main/java/com/codegym/service/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductManagerSpring/src/main/webapp/WEB-INF/views/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductManagerSpring/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductManagerSpring/src/main/webapp/WEB-INF/views/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductManagerSpring/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductManagerSpring/src/main/webapp/WEB-INF/views/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductManagerSpring/src/main/webapp/WEB-INF/views/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductSpringFramework/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductSpringFramework/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductSpringFramework/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductSpringFramework/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductSpringFramework/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductSpringFramework/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductSpringFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductSpringFramework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductSpringFramework/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductSpringFramework/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductSpringFramework/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductSpringFramework/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductSpringFramework/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductSpringFramework/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductSpringFramework/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductSpringFramework/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductSpringFramework/src/main/java/com/codegym/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductSpringFramework/src/main/java/com/codegym/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductSpringFramework/src/main/java/com/codegym/config/ApplicationInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductSpringFramework/src/main/java/com/codegym/config/ApplicationInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductSpringFramework/src/main/java/com/codegym/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductSpringFramework/src/main/java/com/codegym/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductSpringFramework/src/main/java/com/codegym/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductSpringFramework/src/main/java/com/codegym/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductSpringFramework/src/main/java/com/codegym/model/TypeProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductSpringFramework/src/main/java/com/codegym/model/TypeProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductSpringFramework/src/main/java/com/codegym/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductSpringFramework/src/main/java/com/codegym/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductSpringFramework/src/main/java/com/codegym/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductSpringFramework/src/main/java/com/codegym/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductSpringFramework/src/main/java/com/codegym/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductSpringFramework/src/main/java/com/codegym/service/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductSpringFramework/src/main/webapp/WEB-INF/views/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductSpringFramework/src/main/webapp/WEB-INF/views/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TimeOfCityInTheWorld/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TimeOfCityInTheWorld/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TimeOfCityInTheWorld/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TimeOfCityInTheWorld/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TimeOfCityInTheWorld/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TimeOfCityInTheWorld/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TimeOfCityInTheWorld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TimeOfCityInTheWorld/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TimeOfCityInTheWorld/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../TimeOfCityInTheWorld/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TimeOfCityInTheWorld/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../TimeOfCityInTheWorld/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TimeOfCityInTheWorld/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../TimeOfCityInTheWorld/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TimeOfCityInTheWorld/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../TimeOfCityInTheWorld/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TimeOfCityInTheWorld/src/main/java/com/codegym/config/ConfigSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TimeOfCityInTheWorld/src/main/java/com/codegym/config/ConfigSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TimeOfCityInTheWorld/src/main/java/com/codegym/config/ConfigWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TimeOfCityInTheWorld/src/main/java/com/codegym/config/ConfigWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TimeOfCityInTheWorld/src/main/java/com/codegym/controller/TimeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TimeOfCityInTheWorld/src/main/java/com/codegym/controller/TimeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TimeOfCityInTheWorld/src/main/webapp/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../TimeOfCityInTheWorld/src/main/webapp/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/build/classes/java/main/com/codegym/config/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/build/classes/java/main/com/codegym/config/ApplicationConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/build/classes/java/main/com/codegym/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/build/classes/java/main/com/codegym/controller/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/build/classes/java/main/com/codegym/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/build/classes/java/main/com/codegym/controller/EmployeeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/build/classes/java/main/com/codegym/model/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/build/classes/java/main/com/codegym/model/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/build/classes/java/main/com/codegym/model/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/build/classes/java/main/com/codegym/model/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/build/libs/Tomorrow-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/build/libs/Tomorrow-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/src/main/java/com/codegym/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/src/main/java/com/codegym/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/src/main/java/com/codegym/config/ApplicationInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/src/main/java/com/codegym/config/ApplicationInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/src/main/java/com/codegym/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/src/main/java/com/codegym/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/src/main/java/com/codegym/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/src/main/java/com/codegym/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/src/main/java/com/codegym/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/src/main/java/com/codegym/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/src/main/java/com/codegym/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/src/main/java/com/codegym/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/src/main/java/com/codegym/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/src/main/java/com/codegym/repository/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/src/main/java/com/codegym/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/src/main/java/com/codegym/repository/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/src/main/java/com/codegym/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/src/main/java/com/codegym/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/src/main/java/com/codegym/service/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/src/main/java/com/codegym/service/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/src/main/java/com/codegym/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/src/main/java/com/codegym/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/src/main/java/com/codegym/service/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/src/main/java/com/codegym/service/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/src/main/webapp/WEB-INF/views/create-gender.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/src/main/webapp/WEB-INF/views/create-gender.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/src/main/webapp/WEB-INF/views/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/src/main/webapp/WEB-INF/views/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/src/main/webapp/WEB-INF/views/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/src/main/webapp/WEB-INF/views/list-gender.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/src/main/webapp/WEB-INF/views/list-gender.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomorrow/src/main/webapp/WEB-INF/views/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomorrow/src/main/webapp/WEB-INF/views/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c0819h1-demo-jpa-master/.idea/c0819h1-demo-jpa-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../c0819h1-demo-jpa-master/.idea/c0819h1-demo-jpa-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c0819h1-demo-jpa-master/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../c0819h1-demo-jpa-master/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c0819h1-demo-jpa-master/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../c0819h1-demo-jpa-master/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c0819h1-demo-jpa-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../c0819h1-demo-jpa-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c0819h1-demo-jpa-master/c0819h1-demo-jpa-master/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../c0819h1-demo-jpa-master/c0819h1-demo-jpa-master/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c0819h1-demo-jpa-master/c0819h1-demo-jpa-master/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../c0819h1-demo-jpa-master/c0819h1-demo-jpa-master/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-manage/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-manage/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-manage/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-manage/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-manage/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-manage/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-manage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-manage/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-manage/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-manage/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-manage/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-manage/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-manage/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-manage/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-manage/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-manage/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-manage/src/main/java/com/codegym/config/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-manage/src/main/java/com/codegym/config/AppConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-manage/src/main/java/com/codegym/config/ConfigSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-manage/src/main/java/com/codegym/config/ConfigSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-manage/src/main/java/com/codegym/config/ConfigWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-manage/src/main/java/com/codegym/config/ConfigWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-manage/src/main/java/com/codegym/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-manage/src/main/java/com/codegym/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-manage/src/main/java/com/codegym/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-manage/src/main/java/com/codegym/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-manage/src/main/java/com/codegym/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-manage/src/main/java/com/codegym/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-manage/src/main/java/com/codegym/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-manage/src/main/java/com/codegym/service/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-manage/src/main/webapp/WEB-INF/views/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-manage/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-manage/src/main/webapp/WEB-INF/views/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-manage/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-manage/src/main/webapp/WEB-INF/views/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-manage/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-manage/src/main/webapp/WEB-INF/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-manage/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-manage/src/main/webapp/WEB-INF/views/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-manage/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-manage/src/main/webapp/WEB-INF/views/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-manage/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-currency-converter/.idea/artifacts/java_web_currency_converter_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-currency-converter/.idea/artifacts/java_web_currency_converter_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-currency-converter/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-currency-converter/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-currency-converter/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-currency-converter/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-currency-converter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-currency-converter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-currency-converter/java-web-currency-converter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-currency-converter/java-web-currency-converter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-currency-converter/src/Converter/ConverterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-currency-converter/src/Converter/ConverterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/.idea/artifacts/java_web_mvc_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/.idea/artifacts/java_web_mvc_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/.idea/libraries/taglibs_standard_impl_1_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/.idea/libraries/taglibs_standard_impl_1_2_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/java-web-mvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/java-web-mvc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/.idea/Java_web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/.idea/Java_web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CalculatorServlet/.idea/artifacts/CalculatorServlet_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CalculatorServlet/.idea/artifacts/CalculatorServlet_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CalculatorServlet/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CalculatorServlet/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CalculatorServlet/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CalculatorServlet/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CalculatorServlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CalculatorServlet/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CalculatorServlet/CalculatorServlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CalculatorServlet/CalculatorServlet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CalculatorServlet/src/Calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CalculatorServlet/src/Calculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CalculatorServlet/src/Calculator/CalculatorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CalculatorServlet/src/Calculator/CalculatorServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CurrencyConversionJSP/.idea/artifacts/CurrencyConversionJSP_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CurrencyConversionJSP/.idea/artifacts/CurrencyConversionJSP_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CurrencyConversionJSP/.idea/libraries/taglibs_standard_impl_1_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CurrencyConversionJSP/.idea/libraries/taglibs_standard_impl_1_2_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CurrencyConversionJSP/.idea/libraries/taglibs_standard_spec_1_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CurrencyConversionJSP/.idea/libraries/taglibs_standard_spec_1_2_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CurrencyConversionJSP/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CurrencyConversionJSP/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CurrencyConversionJSP/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CurrencyConversionJSP/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CurrencyConversionJSP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CurrencyConversionJSP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CurrencyConversionJSP/CurrencyConversionJSP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CurrencyConversionJSP/CurrencyConversionJSP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CurrencyConversionJSP/out/artifacts/CurrencyConversionJSP_war_exploded/converter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CurrencyConversionJSP/out/artifacts/CurrencyConversionJSP_war_exploded/converter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CurrencyConversionJSP/web/converter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/CurrencyConversionJSP/web/converter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/Dictionary_JSP/.idea/artifacts/Dictionary_JSP_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/Dictionary_JSP/.idea/artifacts/Dictionary_JSP_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/Dictionary_JSP/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/Dictionary_JSP/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/Dictionary_JSP/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/Dictionary_JSP/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/Dictionary_JSP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/Dictionary_JSP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/Dictionary_JSP/Dictionary_JSP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/Dictionary_JSP/Dictionary_JSP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/Dictionary_JSP/out/artifacts/Dictionary_JSP_war_exploded/dictionary.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/Dictionary_JSP/out/artifacts/Dictionary_JSP_war_exploded/dictionary.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/Dictionary_JSP/web/dictionary.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/Dictionary_JSP/web/dictionary.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/Product Discount Calculator/.idea/artifacts/Product_Discount_Calculator_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/Product Discount Calculator/.idea/artifacts/Product_Discount_Calculator_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/Product Discount Calculator/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/Product Discount Calculator/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/Product Discount Calculator/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/Product Discount Calculator/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/Product Discount Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/Product Discount Calculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/Product Discount Calculator/Product Discount Calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/Product Discount Calculator/Product Discount Calculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/Product Discount Calculator/src/Discount/DiscountServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/Product Discount Calculator/src/Discount/DiscountServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/ProductManagement/.idea/artifacts/ProductManagement_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/ProductManagement/.idea/artifacts/ProductManagement_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/ProductManagement/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/ProductManagement/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/ProductManagement/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/ProductManagement/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/ProductManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/ProductManagement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/ProductManagement/ProductManagement.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/ProductManagement/ProductManagement.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/ProductManagement/src/controller/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/ProductManagement/src/controller/ProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/ProductManagement/src/model/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/ProductManagement/src/model/Products.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/ProductManagement/src/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/ProductManagement/src/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/ProductManagement/src/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/ProductManagement/src/service/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/ProductManagement/web/products/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/ProductManagement/web/products/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-currency-converter/.idea/artifacts/java_web_currency_converter_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-currency-converter/.idea/artifacts/java_web_currency_converter_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-currency-converter/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-currency-converter/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-currency-converter/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-currency-converter/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-currency-converter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-currency-converter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-currency-converter/java-web-currency-converter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-currency-converter/java-web-currency-converter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-currency-converter/src/Converter/ConverterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-currency-converter/src/Converter/ConverterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/.idea/artifacts/java_web_mvc_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/.idea/artifacts/java_web_mvc_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/.idea/libraries/taglibs_standard_impl_1_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/.idea/libraries/taglibs_standard_impl_1_2_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/java-web-mvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/java-web-mvc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/src/come/codegym/controller/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/src/come/codegym/controller/CustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/src/come/codegym/controller/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/src/come/codegym/controller/CustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/src/come/codegym/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/src/come/codegym/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/src/come/codegym/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/src/come/codegym/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/src/come/codegym/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/src/come/codegym/service/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/web/customer/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/web/customer/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/web/customer/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/web/customer/delete.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/web/customer/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/web/customer/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/web/customer/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/web/customer/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/web/customer/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/java-web-mvc/web/customer/view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/simple_dictonary/.idea/artifacts/simple_dictonary_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/simple_dictonary/.idea/artifacts/simple_dictonary_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/simple_dictonary/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/simple_dictonary/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/simple_dictonary/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/simple_dictonary/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/simple_dictonary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/simple_dictonary/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/simple_dictonary/simple_dictonary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/simple_dictonary/simple_dictonary.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/simple_dictonary/src/simple_dictionnary/simple_dictionnaryServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/simple_dictonary/src/simple_dictionnary/simple_dictionnaryServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/simple_login/.idea/artifacts/simple_login_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/simple_login/.idea/artifacts/simple_login_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/simple_login/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/simple_login/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/simple_login/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/simple_login/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/simple_login/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/simple_login/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/simple_login/simple_login.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/simple_login/simple_login.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/simple_login/src/Login/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/simple_login/src/Login/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/customer/Create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/customer/Create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/customer/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/customer/delete.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/customer/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/customer/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/customer/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/customer/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/customer/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/out/artifacts/java_web_mvc_war_exploded/customer/view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/src/come/codegym/controller/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/src/come/codegym/controller/CustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/src/come/codegym/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/src/come/codegym/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/src/come/codegym/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/src/come/codegym/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/src/come/codegym/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/src/come/codegym/service/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/web/customer/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/web/customer/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/web/customer/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/web/customer/delete.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/web/customer/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/web/customer/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/web/customer/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/web/customer/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/web/customer/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/web/customer/view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple_dictonary/.idea/artifacts/simple_dictonary_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple_dictonary/.idea/artifacts/simple_dictonary_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple_dictonary/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple_dictonary/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple_dictonary/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple_dictonary/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple_dictonary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple_dictonary/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple_dictonary/simple_dictonary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple_dictonary/simple_dictonary.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple_dictonary/src/simple_dictionnary/simple_dictionnaryServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple_dictonary/src/simple_dictionnary/simple_dictionnaryServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple_login/.idea/artifacts/simple_login_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple_login/.idea/artifacts/simple_login_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple_login/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple_login/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple_login/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple_login/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple_login/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple_login/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple_login/simple_login.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple_login/simple_login.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple_login/src/Login/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple_login/src/Login/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-greetingg/.idea/artifacts/spring_greetingg_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-greetingg/.idea/artifacts/spring_greetingg_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-greetingg/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-greetingg/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-greetingg/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-greetingg/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-greetingg/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-greetingg/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-greetingg/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-greetingg/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-greetingg/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-greetingg/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-greetingg/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-greetingg/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-greetingg/out/artifacts/spring_greetingg_war_exploded/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-greetingg/out/artifacts/spring_greetingg_war_exploded/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-greetingg/out/artifacts/spring_greetingg_war_exploded/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-greetingg/out/artifacts/spring_greetingg_war_exploded/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-greetingg/out/artifacts/spring_greetingg_war_exploded/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-greetingg/out/artifacts/spring_greetingg_war_exploded/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-greetingg/spring-greetingg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-greetingg/spring-greetingg.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-greetingg/src/controllers/GreetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-greetingg/src/controllers/GreetingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-greetingg/web/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-greetingg/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-greetingg/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-greetingg/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-greetingg/web/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-greetingg/web/WEB-INF/views/index.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +643,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -30,14 +654,17 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1SjzQC8LIGHCT6f3xfS33eVlqpn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3954023" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -51,7 +678,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Blog">
+  <component name="RunManager" selected="Tomcat Server.Tomcat">
     <configuration name="Blog" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.263" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -72,78 +699,6 @@
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="56735" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="Gradle : come.codegym : BlogApplicationSpringDataJPAAndHibernate-1.0-SNAPSHOT.war" />
-        </option>
-      </method>
-    </configuration>
-    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.263" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="Gradle : come.codegym : BlogApplicationSpringDataJPAAndHibernate-1.0-SNAPSHOT.war">
-          <settings>
-            <option name="CONTEXT_PATH" value="" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_BlogApplicationSpringDataJPAAndHibernate_2" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="56881" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -225,10 +780,30 @@
       <workItem from="1572443772783" duration="2328000" />
       <workItem from="1572593077701" duration="3380000" />
       <workItem from="1572598937047" duration="2276000" />
+      <workItem from="1573320223049" duration="655000" />
+      <workItem from="1573323359345" duration="95000" />
+      <workItem from="1573323713796" duration="366000" />
+      <workItem from="1573324747752" duration="95000" />
+      <workItem from="1573324937932" duration="1175000" />
+      <workItem from="1574060302086" duration="37000" />
+      <workItem from="1574214937665" duration="545000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

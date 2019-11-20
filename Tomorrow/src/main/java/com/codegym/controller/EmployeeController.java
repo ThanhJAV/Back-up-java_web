@@ -10,10 +10,13 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import javax.validation.Valid;
 import java.util.Optional;
 
 @Controller
@@ -41,15 +44,11 @@ public class EmployeeController {
             employees = employeeService.findAll(pageable);
         }
 
-
-
 //        Page<Employee> employees =  employeeService.findAll(pageable);
             ModelAndView modelAndView = new ModelAndView("/list");
             modelAndView.addObject("employee", employees);
             return modelAndView;
         }
-
-
 
 
     @GetMapping("/create-employee")
@@ -61,7 +60,14 @@ public class EmployeeController {
     }
 
     @PostMapping("/save-create-employee")
-    public ModelAndView postCreateProduct(@ModelAttribute("product") Employee employee, RedirectAttributes redirect) {
+    public ModelAndView postCreateProduct(@ModelAttribute("product") @Validated Employee employee, BindingResult result, RedirectAttributes redirect) {
+
+        if (result.hasErrors()) {
+            System.out.println("Result Error Occured" + result.getAllErrors());
+            ModelAndView modelAndView = new ModelAndView("/create");
+            modelAndView.addObject("employee", new Employee());
+            return modelAndView;
+        }
         employeeService.save(employee);
         ModelAndView modelAndView = new ModelAndView("redirect:/create-employee");
         modelAndView.addObject("employee", new Employee());
